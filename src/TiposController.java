@@ -21,7 +21,7 @@ public class TiposController {
         System.out.print("TipoID: ");
         int tipoid = input.nextInt();
         System.out.print("Nome: ");
-        String nome = input.nextLine();
+        String nome = input.next();
 
         TiposBean tb = new TiposBean(tipoid, nome);
         TiposModel.create(tb, con);

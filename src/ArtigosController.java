@@ -21,7 +21,7 @@ public class ArtigosController {
         System.out.print("ArtigoID: ");
         int artigoid = input.nextInt();
         System.out.print("Título: ");
-        String titulo = input.nextLine();
+        String titulo = input.next();
         System.out.print("TipoID: ");
         int tipoid = input.nextInt();
         System.out.print("EdicaoID: ");
