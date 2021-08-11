@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author rebeca
+ * @author alisson
  */
 public class TiposModel {
     static void create(TiposBean tb, Connection con) throws SQLException {
